@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de privacidad de Gaston, la aplicación para organizar presupuestos y gastos.">
+  <meta name="theme-color" content="#f5f6f1">
+  <title>Política de privacidad · Gaston</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #20251f;
+      --muted: #59635a;
+      --paper: #f5f6f1;
+      --surface: #ffffff;
+      --line: #dce2d6;
+      --green: #3d622d;
+      --gold: #a66d16;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.7;
+    }
+    header, main, footer { width: min(100% - 40px, 800px); margin-inline: auto; }
+    header { padding: 52px 0 30px; border-bottom: 1px solid var(--line); }
+    .brand {
+      margin: 0 0 22px;
+      color: var(--green);
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--gold);
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    h1, h2 { line-height: 1.2; }
+    h1 { max-width: 680px; margin: 0; font-size: clamp(38px, 8vw, 62px); font-weight: 500; }
+    .updated { margin: 18px 0 0; color: var(--muted); font-family: Arial, sans-serif; font-size: 14px; }
+    main { padding: 30px 0 64px; }
+    .intro {
+      margin: 0 0 34px;
+      padding: 22px 24px;
+      border-left: 4px solid var(--green);
+      background: #e9eee3;
+      font-size: 19px;
+    }
+    section { padding: 24px 0; border-top: 1px solid var(--line); }
+    h2 { margin: 0 0 14px; font-size: 25px; font-weight: 500; }
+    p { margin: 0 0 14px; }
+    ul { margin: 0 0 14px; padding-left: 24px; }
+    li { padding-left: 4px; margin: 6px 0; }
+    a { color: var(--green); text-underline-offset: 3px; }
+    .contact {
+      padding: 22px 24px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+    }
+    footer { padding: 20px 0 36px; border-top: 1px solid var(--line); color: var(--muted); font-family: Arial, sans-serif; font-size: 13px; }
+    @media (max-width: 520px) {
+      header, main, footer { width: min(100% - 28px, 800px); }
+      header { padding-top: 34px; }
+      .intro, .contact { padding: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="brand">GASTON</p>
+    <p class="eyebrow">Información legal</p>
+    <h1>Política de privacidad</h1>
+    <p class="updated">Última actualización: 5 de octubre de 2026</p>
+  </header>
+
+  <main>
+    <p class="intro">Gaston te ayuda a organizar presupuestos y gastos. Tus datos financieros permanecen en tu dispositivo; las estadísticas de uso son opcionales y solo se activan si las aceptas.</p>
+
+    <section>
+      <h2>Responsable y contacto</h2>
+      <div class="contact">
+        <p><strong>Responsable:</strong> Stefano Mazzuka</p>
+        <p><strong>Correo de privacidad:</strong> <a href="mailto:stefano.mazzuka@gmail.com">stefano.mazzuka@gmail.com</a></p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Datos que guardas en Gaston</h2>
+      <p>Los nombres de tus sacos, ingresos, fechas de cobro, objetivos y ajustes de ahorro, gastos fijos, movimientos, retiradas del cofre y datos derivados de las batallas se guardan en una base de datos local dentro del almacenamiento privado de la aplicación. Gaston no se conecta a bancos ni envía estos datos financieros a sus desarrolladores.</p>
+      <p>Las preferencias de la aplicación, como el saco favorito y tu decisión sobre Analytics, también se guardan localmente. No se crea una cuenta de Gaston.</p>
+    </section>
+
+    <section>
+      <h2>Fotografías y lectura de tickets</h2>
+      <p>Si eliges fotografiar un ticket, Android abre la aplicación de cámara disponible en tu dispositivo. La fotografía se guarda temporalmente en la caché privada de Gaston y el reconocimiento de texto se realiza en el dispositivo mediante ML Kit. La imagen y el texto reconocido no se envían a Gaston ni a Firebase.</p>
+      <p>Gaston elimina la fotografía al terminar o cancelar el flujo. Si el proceso se interrumpe, los archivos temporales antiguos se limpian cuando vuelves a abrir la cámara. La aplicación de cámara del dispositivo puede tener sus propias prácticas de privacidad.</p>
+    </section>
+
+    <section>
+      <h2>Estadísticas opcionales de uso</h2>
+      <p>Firebase Analytics está desactivado por defecto. Solo se activa si aceptas las estadísticas en el menú de Ajustes. Puedes revocar el consentimiento desde el mismo lugar; la revocación detiene la recopilación futura, pero no elimina automáticamente datos que Google ya hubiera recibido.</p>
+      <p>Cuando está activado, Gaston registra eventos generales como las pantallas visitadas y acciones de uso (por ejemplo, crear o editar un saco, registrar un gasto o retirar dinero del cofre). Estos eventos no incluyen importes, nombres de bancos, conceptos de gastos, fotografías ni el texto de tickets. Firebase también puede procesar identificadores técnicos y datos de la aplicación necesarios para el servicio de Analytics.</p>
+      <p>El proveedor de este servicio es Google. Consulta la <a href="https://firebase.google.com/support/privacy">información de privacidad de Firebase</a> y la <a href="https://policies.google.com/privacy">política de privacidad de Google</a> para saber cómo trata Google los datos recibidos.</p>
+    </section>
+
+    <section>
+      <h2>Conservación y eliminación</h2>
+      <p>Los datos financieros permanecen en el dispositivo hasta que eliminas el saco correspondiente, borras los datos de Gaston desde los ajustes de Android o desinstalas la aplicación. Las copias de seguridad de Gaston están desactivadas. No podemos recuperar datos locales después de que se eliminen del dispositivo.</p>
+      <p>Si aceptaste Analytics, puedes desactivarlo en cualquier momento desde Ajustes. Para consultas sobre datos tratados por Firebase, escríbenos al correo indicado; la conservación y eliminación de los datos enviados a Google también está sujeta a la configuración y políticas del servicio.</p>
+    </section>
+
+    <section>
+      <h2>Seguridad y cambios</h2>
+      <p>Los datos financieros se mantienen en el almacenamiento privado de Android y no se incluyen en copias de seguridad de la aplicación. Ningún método de almacenamiento o transmisión puede garantizar seguridad absoluta.</p>
+      <p>Podemos actualizar esta política si cambian Gaston o sus servicios. Publicaremos la nueva versión en esta misma dirección e indicaremos la fecha de actualización.</p>
+    </section>
+
+    <section>
+      <h2>Contacto y derechos</h2>
+      <p>Para preguntas sobre privacidad o para ejercer los derechos que te correspondan según la legislación aplicable, escribe a <a href="mailto:stefano.mazzuka@gmail.com">stefano.mazzuka@gmail.com</a>. Incluye suficiente información para entender tu solicitud, pero no envíes contraseñas ni datos financieros sensibles por correo.</p>
+    </section>
+  </main>
+
+  <footer>Gaston · Política de privacidad · Actualizada el 5 de octubre de 2026</footer>
+</body>
+</html>
